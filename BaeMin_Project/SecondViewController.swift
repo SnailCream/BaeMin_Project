@@ -29,6 +29,10 @@ class SecondViewController: UIViewController {
         titleLabel.textColor = UIColor.red
         titleLabel.font = UIFont.boldSystemFont(ofSize: 30)
         
+        print(1)
+        print(1)
+        print(1)
+        
     }
     
     
