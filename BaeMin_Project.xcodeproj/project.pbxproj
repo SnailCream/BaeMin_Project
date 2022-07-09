@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		D45933812877B5E600BFF5D2 /* GithubTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45933802877B5E600BFF5D2 /* GithubTest.swift */; };
 		D45933852878906A00BFF5D2 /* KakaoTalk.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D45933842878906900BFF5D2 /* KakaoTalk.storyboard */; };
+		D459338728799CDB00BFF5D2 /* KakaoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D459338628799CDA00BFF5D2 /* KakaoViewController.swift */; };
 		D47D4C0B28733E0400DBE031 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D47D4C0A28733E0400DBE031 /* AppDelegate.swift */; };
 		D47D4C0D28733E0400DBE031 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D47D4C0C28733E0400DBE031 /* SceneDelegate.swift */; };
 		D47D4C0F28733E0400DBE031 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D47D4C0E28733E0400DBE031 /* ViewController.swift */; };
@@ -22,6 +23,7 @@
 /* Begin PBXFileReference section */
 		D45933802877B5E600BFF5D2 /* GithubTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubTest.swift; sourceTree = "<group>"; };
 		D45933842878906900BFF5D2 /* KakaoTalk.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = KakaoTalk.storyboard; sourceTree = "<group>"; };
+		D459338628799CDA00BFF5D2 /* KakaoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KakaoViewController.swift; sourceTree = "<group>"; };
 		D47D4C0728733E0400DBE031 /* BaeMin_Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaeMin_Project.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D47D4C0A28733E0400DBE031 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D47D4C0C28733E0400DBE031 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 				D47D4C0E28733E0400DBE031 /* ViewController.swift */,
 				D47D4C1028733E0400DBE031 /* Main.storyboard */,
 				D45933842878906900BFF5D2 /* KakaoTalk.storyboard */,
+				D459338628799CDA00BFF5D2 /* KakaoViewController.swift */,
 				D47D4C1E2873DA4200DBE031 /* FirstViewController.swift */,
 				D47D4C202873DAAF00DBE031 /* SecondViewController.swift */,
 				D45933802877B5E600BFF5D2 /* GithubTest.swift */,
@@ -151,6 +154,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D459338728799CDB00BFF5D2 /* KakaoViewController.swift in Sources */,
 				D45933812877B5E600BFF5D2 /* GithubTest.swift in Sources */,
 				D47D4C0F28733E0400DBE031 /* ViewController.swift in Sources */,
 				D47D4C0B28733E0400DBE031 /* AppDelegate.swift in Sources */,
@@ -308,7 +312,7 @@
 				INFOPLIST_FILE = BaeMin_Project/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = KakaoTalk;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -336,7 +340,7 @@
 				INFOPLIST_FILE = BaeMin_Project/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = KakaoTalk;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
