@@ -8,10 +8,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Melon View Controller-->
         <scene sceneID="s0d-6b-0kx">
             <objects>
-                <viewController id="Y6W-OH-hqX" sceneMemberID="viewController">
+                <viewController id="Y6W-OH-hqX" customClass="Melon_ViewController" customModule="BaeMin_Project" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -19,69 +19,69 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="Z7L-8j-J9a">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="UOg-sO-iA3">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icn_music" translatesAutoresizingMaskIntoConstraints="NO" id="UOg-sO-iA3">
                                 <rect key="frame" x="86" y="55" width="30" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="30" id="5Rf-S8-azh"/>
                                     <constraint firstAttribute="height" constant="30" id="fva-bs-c0U"/>
                                 </constraints>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Aci-Ki-mgf">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icn_down_arrow" translatesAutoresizingMaskIntoConstraints="NO" id="Aci-Ki-mgf">
                                 <rect key="frame" x="376" y="55" width="30" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="Cbx-i4-mgr"/>
                                     <constraint firstAttribute="width" constant="30" id="yhY-PR-nlQ"/>
                                 </constraints>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="IPU-7Y-28H">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icn_heart" translatesAutoresizingMaskIntoConstraints="NO" id="IPU-7Y-28H">
                                 <rect key="frame" x="36" y="514" width="30" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="BXU-Mx-6tT"/>
                                     <constraint firstAttribute="width" constant="30" id="r5i-Ig-nfr"/>
                                 </constraints>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="f7U-y9-kG6">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icn_shuffle" translatesAutoresizingMaskIntoConstraints="NO" id="f7U-y9-kG6">
                                 <rect key="frame" x="361" y="757" width="30" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="30" id="gIK-9c-jiT"/>
                                 </constraints>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="qsf-ww-DhN">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icn_playlist" translatesAutoresizingMaskIntoConstraints="NO" id="qsf-ww-DhN">
                                 <rect key="frame" x="20" y="819" width="35" height="35"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="35" id="Dj0-ko-I3V"/>
                                     <constraint firstAttribute="height" constant="35" id="dKZ-kF-FL5"/>
                                 </constraints>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="fIv-dZ-IGu">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icn_equalizer" translatesAutoresizingMaskIntoConstraints="NO" id="fIv-dZ-IGu" customClass="Melon_ViewController.swift" customModule="BaeMin_Project" customModuleProvider="target">
                                 <rect key="frame" x="359" y="819" width="35" height="35"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="35" id="bWA-vQ-UPc"/>
                                     <constraint firstAttribute="height" constant="35" id="hCL-9r-8Gs"/>
                                 </constraints>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="uaS-4d-yfe">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icn_pause" translatesAutoresizingMaskIntoConstraints="NO" id="uaS-4d-yfe">
                                 <rect key="frame" x="182" y="804" width="50" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="50" id="8yg-Gp-gTh"/>
                                     <constraint firstAttribute="height" constant="50" id="nEr-ov-uVJ"/>
                                 </constraints>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="wDG-fg-VW9">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icn_backward" translatesAutoresizingMaskIntoConstraints="NO" id="wDG-fg-VW9">
                                 <rect key="frame" x="93" y="804" width="50" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="50" id="RjT-Ez-toV"/>
                                     <constraint firstAttribute="height" constant="50" id="wyj-jx-cdv"/>
                                 </constraints>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="IzU-Fq-QrQ">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icn_forward" translatesAutoresizingMaskIntoConstraints="NO" id="IzU-Fq-QrQ">
                                 <rect key="frame" x="271" y="804" width="50" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="Xx1-Nn-uhA"/>
                                     <constraint firstAttribute="width" constant="50" id="afw-MM-fCo"/>
                                 </constraints>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="yvX-v3-vSg">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icn_instagram" translatesAutoresizingMaskIntoConstraints="NO" id="yvX-v3-vSg">
                                 <rect key="frame" x="373" y="519" width="21" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="21" id="WVn-jC-jBm"/>
@@ -107,7 +107,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="dGg-Xz-tC8">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iu" translatesAutoresizingMaskIntoConstraints="NO" id="dGg-Xz-tC8">
                                 <rect key="frame" x="20" y="191" width="374" height="305"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="374" id="6mo-A9-hqP"/>
@@ -140,13 +140,13 @@
                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="hWv-uj-MNk">
                                 <rect key="frame" x="81" y="757" width="252" height="31"/>
                             </slider>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="HQt-7f-Jgr">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icn_repeat" translatesAutoresizingMaskIntoConstraints="NO" id="HQt-7f-Jgr">
                                 <rect key="frame" x="22" y="757" width="30" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="30" id="W12-8a-zPP"/>
                                 </constraints>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="raU-gx-XpY">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icn_vertical_dots" translatesAutoresizingMaskIntoConstraints="NO" id="raU-gx-XpY">
                                 <rect key="frame" x="376" y="93" width="30" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="Pgw-Cl-qpA"/>
@@ -209,6 +209,11 @@
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="IzU-Fq-QrQ" secondAttribute="bottom" constant="8" id="zyM-Es-dPO"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="artistNameLabel" destination="VkY-sc-bam" id="d2p-gS-nWK"/>
+                        <outlet property="musicNameLabel" destination="85r-Ba-wB7" id="2yC-kW-PNT"/>
+                        <outlet property="numLikeLabel" destination="pnc-OF-LTi" id="cdE-RD-3Eq"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -217,6 +222,19 @@
     </scenes>
     <resources>
         <image name="background" width="375" height="667"/>
+        <image name="icn_backward" width="11.5" height="18"/>
+        <image name="icn_down_arrow" width="24" height="24"/>
+        <image name="icn_equalizer" width="20" height="20"/>
+        <image name="icn_forward" width="11.5" height="18"/>
+        <image name="icn_heart" width="20" height="20"/>
+        <image name="icn_instagram" width="24" height="24"/>
+        <image name="icn_music" width="18" height="18"/>
+        <image name="icn_pause" width="20" height="20"/>
+        <image name="icn_playlist" width="20" height="20"/>
+        <image name="icn_repeat" width="18" height="18"/>
+        <image name="icn_shuffle" width="18" height="18"/>
+        <image name="icn_vertical_dots" width="18" height="18"/>
+        <image name="iu" width="282" height="282"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

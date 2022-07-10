@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D4091097287B0CAB00258F72 /* Melon_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4091096287B0CAB00258F72 /* Melon_ViewController.swift */; };
 		D45933812877B5E600BFF5D2 /* GithubTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45933802877B5E600BFF5D2 /* GithubTest.swift */; };
 		D45933852878906A00BFF5D2 /* KakaoTalk.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D45933842878906900BFF5D2 /* KakaoTalk.storyboard */; };
 		D459338728799CDB00BFF5D2 /* KakaoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D459338628799CDA00BFF5D2 /* KakaoViewController.swift */; };
 		D45933892879A73400BFF5D2 /* Melon.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D45933882879A73300BFF5D2 /* Melon.storyboard */; };
-		D459338B2879A74B00BFF5D2 /* MelonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D459338A2879A74B00BFF5D2 /* MelonViewController.swift */; };
 		D47D4C0B28733E0400DBE031 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D47D4C0A28733E0400DBE031 /* AppDelegate.swift */; };
 		D47D4C0D28733E0400DBE031 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D47D4C0C28733E0400DBE031 /* SceneDelegate.swift */; };
 		D47D4C0F28733E0400DBE031 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D47D4C0E28733E0400DBE031 /* ViewController.swift */; };
@@ -23,11 +23,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D4091096287B0CAB00258F72 /* Melon_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Melon_ViewController.swift; sourceTree = "<group>"; };
 		D45933802877B5E600BFF5D2 /* GithubTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubTest.swift; sourceTree = "<group>"; };
 		D45933842878906900BFF5D2 /* KakaoTalk.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = KakaoTalk.storyboard; sourceTree = "<group>"; };
 		D459338628799CDA00BFF5D2 /* KakaoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KakaoViewController.swift; sourceTree = "<group>"; };
 		D45933882879A73300BFF5D2 /* Melon.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Melon.storyboard; sourceTree = "<group>"; };
-		D459338A2879A74B00BFF5D2 /* MelonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MelonViewController.swift; sourceTree = "<group>"; };
 		D47D4C0728733E0400DBE031 /* BaeMin_Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaeMin_Project.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D47D4C0A28733E0400DBE031 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D47D4C0C28733E0400DBE031 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -76,8 +76,8 @@
 				D47D4C1028733E0400DBE031 /* Main.storyboard */,
 				D45933842878906900BFF5D2 /* KakaoTalk.storyboard */,
 				D45933882879A73300BFF5D2 /* Melon.storyboard */,
-				D459338A2879A74B00BFF5D2 /* MelonViewController.swift */,
 				D459338628799CDA00BFF5D2 /* KakaoViewController.swift */,
+				D4091096287B0CAB00258F72 /* Melon_ViewController.swift */,
 				D47D4C1E2873DA4200DBE031 /* FirstViewController.swift */,
 				D47D4C202873DAAF00DBE031 /* SecondViewController.swift */,
 				D45933802877B5E600BFF5D2 /* GithubTest.swift */,
@@ -167,7 +167,7 @@
 				D47D4C0B28733E0400DBE031 /* AppDelegate.swift in Sources */,
 				D47D4C0D28733E0400DBE031 /* SceneDelegate.swift in Sources */,
 				D47D4C212873DAAF00DBE031 /* SecondViewController.swift in Sources */,
-				D459338B2879A74B00BFF5D2 /* MelonViewController.swift in Sources */,
+				D4091097287B0CAB00258F72 /* Melon_ViewController.swift in Sources */,
 				D47D4C1F2873DA4200DBE031 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
